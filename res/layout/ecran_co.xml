@@ -1,0 +1,44 @@
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="fill_parent"
+android:layout_height="fill_parent" android:background="@drawable/fond">
+ 
+<ImageView 
+    android:layout_width="fill_parent" 
+    android:id="@+id/title12"
+	android:layout_height="wrap_content"
+	android:src="@drawable/connexion_logo" 
+	android:layout_marginTop="10dp" />
+ 
+ <EditText
+     android:id="@+id/editTextUserNameToLogin"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:ems="10"
+     android:hint="@string/adressemaillogin" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPasswordToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/passwordlogin"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginbtn" />
+
+    <Button
+        android:id="@+id/createaccountinlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/createaccount" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <EditTextPreference
+        android:key="pref_author"
+        android:title="@string/pref_author_title"
+        android:summary="@string/pref_author_summary">
+    </EditTextPreference>
+    
+    <ListPreference
+        android:key="pref_server"
+        android:defaultValue="@string/pref_server_default"
+        android:dialogTitle="@string/pref_server_title"
+        android:entries="@array/pref_server_entries"
+        android:entryValues="@array/pref_server_values"
+        android:title="@string/pref_server_title" />
+
+</PreferenceScreen>

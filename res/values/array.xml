@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_server_entries">
+        <item>@string/pref_server_default</item>
+        <item>@string/pref_server_test</item>
+         <item>@string/pref_server_am</item>
+         <item>@string/pref_server_refam</item>
+    </string-array>
+
+    <string-array name="pref_server_values">
+        <item>@string/pref_server_default</item>
+        <item>@string/pref_server_test</item>
+        <item>@string/pref_server_am</item>
+           <item>@string/pref_server_refam</item>
+    </string-array>
+
+</resources>

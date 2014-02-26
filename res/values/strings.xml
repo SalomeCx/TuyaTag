@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestTuyaTag</string>
+   
+    <string name="hello_world">Hello world!</string>
+      <!-- Menu Titles -->
+    <string name="action_clean">Clean</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- UI Labels -->
+    <string name="image_preview">Image Preview</string>
+    <string name="button_take">Take Picture</string>
+    <string name="button_location">Location Icon</string>
+    <string name="button_refresh">Refresh Location</string>
+    <string name="button_send">Send Graffiti</string>
+
+    <!-- UI Hints -->
+    <string name="hint_location">Coordinates</string>
+    <string name="hint_comment">Add your comments</string>
+    <string name="hint_status">status</string>
+    
+    <!-- Latitude, longitude format -->
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+
+    <string name="latlng">Lat/Long:</string>
+
+    <!-- Location Messages -->
+    <string name="connected">Client connected</string>
+    <string name="disconnected">Client disconnected</string>
+    <string name="location_requested">Periodic updates requested</string>
+    <string name="location_updated">Location updated</string>
+    <string name="location_updates_stopped">Periodic updates stopped</string>
+    <string name="resolved">Error resolved. Please re-try operation.</string>
+    <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
+    <string name="play_services_available">Google Play services is available</string>
+    
+    <!-- URLs -->
+    <string name="url_get_location">http://tuyatag.irisa.fr/tuyatag_upl.php</string>
+    <string name="url_send_default">http://tuyatag.irisa.fr/tuyatag_dld.php</string>
+    <string name="url_send_test">http://tuyatag.irisa.fr/tuyatag_dld_test.php</string>
+    <string name="url_send_am">http://tuyatag.irisa.fr/tuyatag.php</string>
+    <string name="url_send_refam">http://tuyatag.irisa.fr/am_dld_ref.php</string>
+    
+    <!-- Upload/Server messages -->
+    <string name="uploading">Uploading graffiti…</string>
+    <string name="get_server_location_failed">Can\'t retrieve updload location from server</string>
+    <string name="http_request_failed">HTTP request failed</string>
+    <string name="upload_failed">Upload failed (%1$s)</string>
+    <string name="empty_result">Empty result</string>
+    <string name="graffity_sent_to">Graffiti sent to %1$s</string>
+    
+    
+    <!-- Settings -->
+    <string name="pref_server_default">Default</string>
+    <string name="pref_server_test">Test</string>
+    <string name="pref_server_title">Server</string>
+    <string name="pref_author_title">Author</string>
+    <string name="pref_author_summary">Enter you name</string>
+    <string name="pref_server_am">AtlasMuseum</string>
+     <string name="pref_server_refam">AtlasMuseum Ref.</string>
+     
+    <!-- Other strings -->
+    <string name="camera_unavailable">Camera not available</string>
+    <string name="network_unavailable">Network not available</string>
+    
+    
+	<string name="apropos">
+	   TuyaTag est une application de crowdsourcing qui a pour but de répertorier
+	   un maximum de graffitis sur la ville de Rennes et dans ses alentours. Les utilisateurs pourront participer 
+	   à l’application en ajoutant eux-mêmes des photos qu’ils désireront partager.
+	</string>
+    
+    
+	<string name="username">Nom d\'utilisateur</string>
+    
+    
+	<string name="email_address">Adresse Mail</string>
+    
+    
+	<string name="password">Mot de Passe</string>
+    
+    
+	<string name="confirmpassword">Conformer Mot de Passe</string>
+    
+    
+	<string name="createaccount">S\'Inscrire</string>
+    
+    
+	<string name="adressemaillogin">Adresse Mail</string>
+    
+    
+	<string name="passwordlogin">Mot de Passe</string>
+    
+    
+	<string name="loginbtn">Se Connecter</string>
+</resources>
